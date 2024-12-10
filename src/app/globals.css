@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
 }
 
 html {
@@ -17,7 +17,6 @@ html {
 body {
   background-color: var(--bgColor);
 }
-
 
 /* Route Navigational bar*/
 .route .route-btn {
@@ -390,8 +389,6 @@ body {
   height: 40px;
 }
 
-
-
 .vid-img {
   width: 100%;
   height: 50vh;
@@ -431,12 +428,22 @@ body {
     height: 8vh;
     background: linear-gradient(var(--bgColor), var(--darkColor));
   }
- 
 }
+
+/*
+echo "# itlawjimmy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jimmy-ui-maker/itlawjimmy.git
+git push -u origin main
+*/
 
 /*--------------------------------------------------------------
 # F.A.Q Page
 --------------------------------------------------------------*/
+
 .landing-faq {
   background: radial-gradient(var(--darkColor), var(--bgColor)),
     url("/images/question.jpg") fixed center top;

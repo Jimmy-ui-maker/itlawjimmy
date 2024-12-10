@@ -11,10 +11,13 @@ export default function page() {
             <p className="h2 my-3">1. Home Interface</p>
             <p>
               This page features a navigation bar at the top with three key
-              sections: 1. **Home Section**: Provides an overview of the app,
-              accompanied by a hero image on the right. 2. **Live Recording
+              sections: 
+              <br /> 1. **Home Section**: Provides an overview of the app,
+              accompanied by a hero image on the right. 
+              <br /> 2. **Live Recording
               Section**: Allows users to perform live recordings for emotion
-              prediction. 3. **Demo Section (Upload Section)**: Enables users to
+              prediction. 
+              <br />3. **Demo Section (Upload Section)**: Enables users to
               upload audio files in WAV format from their computer for
               prediction.
             </p>
